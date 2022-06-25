@@ -22,7 +22,7 @@ body:
     attributes:
       label: site-key
       description: Copy the sitekey in the iframe element, skip it if you don't know it.
-      value: https://accounts.hcaptcha.com/demo?sitekey=
+      value: "https://accounts.hcaptcha.com/demo?sitekey="
     validations: 
       required: false
   - type: input
