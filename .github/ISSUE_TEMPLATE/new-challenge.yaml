@@ -5,14 +5,14 @@ labels: "\U0001F525 challenge"
 assignees: ""
 body:
   - type: textarea
-  attributes:
-    label: Operating System
-    description: What operating system are you using?
-    placeholder:
-      Example: macOS Big Sur
-    value: operating system
-  validations:
-    required: true
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      placeholder:
+        Example: macOS Big Sur
+      value: operating system
+    validations:
+      required: true
   - type: dropdown
     attributes:
       label: Version
