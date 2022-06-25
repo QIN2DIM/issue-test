@@ -5,14 +5,14 @@ labels: "\U0001F525 challenge"
 body:
   - type: input
     attributes:
-      label: prompt[en]
+      label: Prompt[en]
       description: Copy the complete English challenge prompt.
       placeholder: Please click each image containing a motorbus
     validations:
       required: true
   - type: dropdown
     attributes:
-      label: new types of challenge
+      label: New types of challenge
       options: 
         - New prompt (for ex. Please elect the 45th President of the US)
         - New approach (for ex. image watermark)
@@ -20,20 +20,21 @@ body:
       required: true
   - type: input
     attributes:
-      label: site-key
+      label: Sitekey
       description: Copy the sitekey in the iframe element, skip it if you don't know it.
       value: "https://accounts.hcaptcha.com/demo?sitekey="
     validations: 
       required: false
   - type: input
     attributes: 
-      label: site link
+      label: Sitelink
       description: Copy the link to the site where the challenge popped up.
     validations:
       required: true
-#   - type: markdown
-#     attributes:
-#       label: screenshot of the challenge
-#       description: The screenshot should contain the prompt message and all the pictures of the challenge.
-#     validations:
-#       required: true
+  - type: textarea
+    attributes:
+      label: screenshot of the challenge
+      description: The screenshot should contain the prompt message and all the pictures of the challenge.
+      placeholder: Fill in the image hosting link or upload the image directly
+    validations:
+      required: true
