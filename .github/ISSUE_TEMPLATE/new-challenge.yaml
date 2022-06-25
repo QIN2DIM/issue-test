@@ -31,9 +31,9 @@ body:
       description: Copy the link to the site where the challenge popped up.
     validations:
       required: true
-  - type: markdown
-    attributes:
-      label: screenshot of the challenge
-      description: The screenshot should contain the prompt message and all the pictures of the challenge.
-    validations:
-      required: true
+#   - type: markdown
+#     attributes:
+#       label: screenshot of the challenge
+#       description: The screenshot should contain the prompt message and all the pictures of the challenge.
+#     validations:
+#       required: true
